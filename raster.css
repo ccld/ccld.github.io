@@ -395,7 +395,6 @@ ul#navlist li a { color: #dcdcdc; padding: 7px;  }
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
-	position: absolute;
 	width: 98.9583%;
 	max-width: 1232px;
 	padding-left: 0.5208%;
@@ -413,7 +412,7 @@ ul#navlist li a { color: #dcdcdc; padding: 7px;  }
 	width: 100%;   
 	display: block;  
 	text-align: center; 
-	margin: 10px  0 3px 0; }
+	margin: 1px  0 1px 0; }
 
 #content-start { 
 	clear: both;   
@@ -431,7 +430,7 @@ ul#navlist li a { color: #dcdcdc; padding: 7px;  }
 	display: block;
 	font-family: 'Open Sans Condensed', sans-serif;  
 	text-align: center; 
-	padding-top: 1.5em; 
+	padding-top: 1px; 
 	font-size: 26px; 
 }
 
