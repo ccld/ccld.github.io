@@ -12,9 +12,9 @@ audio:not([controls]) { display: none; }
    Basis
    ========================================================================== */
 
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 100%; overflow-y: scroll; }
 
-body { margin: 0; font-size: 13px; line-height: 1.231; }
+body { margin: 0px; font-size: 13px; line-height: 1.231; }
 
 
 
@@ -124,7 +124,6 @@ td { vertical-align: top; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
 
 /* ==|== Print Styles 
    ========================================================================== */

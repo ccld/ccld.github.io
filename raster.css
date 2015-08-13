@@ -399,9 +399,9 @@ ul#navlist li a { color: #dcdcdc; padding: 7px;  }
 	max-width: 1232px;
 	padding-left: 0.5208%;
 	padding-right: 0.5208%;
-    	margin: auto;
+ }
 
-}
+
 #header-start {  
 	color: #dcdcdc;
 	font-size: 40px;
@@ -430,7 +430,7 @@ ul#navlist li a { color: #dcdcdc; padding: 7px;  }
 	display: block;
 	font-family: 'Open Sans Condensed', sans-serif;  
 	text-align: center; 
-	padding-top: 1px; 
+	padding-top: 3px; 
 	font-size: 26px; 
 }
 
@@ -443,8 +443,7 @@ ul#navlist li a { color: #dcdcdc; padding: 7px;  }
 	display: block;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 48px; 
-	color: #dcdcdc;;
-	margin-top: 25px;
+	color: #dcdcdc;
 	z-index: 20;
 }
 #nav {
@@ -537,10 +536,10 @@ ul#navlist li a { color: #dcdcdc; padding: 7px;  }
 	clear: none;
 	float: none;
 	margin-left: 20%;
+	margin-top: 0px;
 	width: 81.0526%;
 	display: block;
 	position:relative;
-	margin-top:100px;
 	text-align:center;
 	}
 #beschreibung {
