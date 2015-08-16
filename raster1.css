@@ -184,13 +184,16 @@ a:active {
 }
 #detail {
 	clear: none;
-	float: none;
+	float: left;
 	margin-left: 20%;
-	margin-top: 0px;
 	width: 81.0526%;
 	display: block;
-	position: static;
-	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif; 
+	color: #dcdcdc; 
+	font-size: 1.5em;  
+	margin-top: 0.625em;
+	line-height: 1.75em;
+	text-align:center;
 	}
 #beschreibung {
 	clear: none;
@@ -257,4 +260,17 @@ img { border: none; }
 * html a.imagelink:hover { border: 3px solid #7fad41; } 
 .imagelink img { border: 1px solid black;} 
 .imagelink img:hover { border: 3px solid #7fad41; } 
+
+
+@font-face  { 
+ { 
+} } 
+
+
+ @font-face  { 
+ { 
+} 
+} 
+
+
 
