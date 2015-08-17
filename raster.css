@@ -6,16 +6,25 @@ body {
 	background-color: #000000;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-a:link { 
-	text-decoration:none; 
-	color: #dcdcdc;
+/* unvisited link */
+a:link {
+    color: none;
 }
-a:hover { 
-	color: #7fad41;
+
+/* visited link */
+a:visited {
+    color: #dcdcdc;
+    text-decoration:none;
 }
-a:visited	{
-	color: #dcdcdc;
-	text-decoration:none
+
+/* mouse over link */
+a:hover {
+    color: #7fad41;
+}
+
+/* selected link */
+a:active {
+     color: #7fad41;
 }
 .gridContainer {
 	width: 91.0625%;
@@ -208,16 +217,16 @@ h1 {
  /*Left-Navigation */
 #nav-img a:link img { display:block; border:1px solid #dcdcdc; }
 #nav-img a:visited img { display:block; border:1px solid #FFF; } 
-#nav-img a:hover img { border:1px solid #7fad41; }
+#nav-img a:hover img { border:2px solid #7fad41; }
 
-img.active { border:1px solid #7fad41 !important; }
+img.active { border:5px solid #7fad41 !important; }
 
 
 /*Border Content Images */
 img { border: none; } 
-* html a.imagelink:hover { border: 1px solid #7fad41; } 
+* html a.imagelink:hover { border: 2px solid #7fad41; } 
 .imagelink img { border: 1px solid black;} 
-.imagelink img:hover { border: 1px solid #7fad41; } 
+.imagelink img:hover { border: 2px solid #7fad41; } 
 
 
 /* Layout für Tablet-PCs: 481 bis 768 px. Erbt Stile vom: Layout für Mobilgeräte. Inherits the style from the layout for mobile devices.*/
