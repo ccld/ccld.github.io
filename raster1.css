@@ -13,7 +13,7 @@ sup{top:-0.5em}
 sub{bottom:-0.25em}
 img{border:0}
 
-html,body{background-color: #000000;font-family: 'Open Sans Condensed', sans-serif;font-size:15px;line-height:1.5}
+html,body{background-color: #000000;font-family: 'Open Sans Condensed', sans-serif;font-size:1em;line-height:1.5}
 h1,h2,h3,h4,h5,h6{font-family: 'Open Sans Condensed', sans-serif;font-weight:400;margin:10px 0}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
 h1{font-size:36px}
@@ -192,7 +192,7 @@ a:active {
 	color: #dcdcdc; 
 	font-size: 1.5em;  
 	margin-top: 0.625em;
-	line-height: 1.75em;
+
 	text-align:center;
 	}
 #beschreibung {
@@ -229,14 +229,14 @@ a:active {
 #navlist, ul#navlist ul, ul#navlist li { margin: 0px; padding: 2px; list-style-type: none; }
 #navlist li {  display: inline; float: right; }
 #navlist li a { color: #dcdcdc; padding: 2px; }
-/*#navlist li a:link, a:visited {
+#navlist li a:link, a:visited {
 				display: block; 
-				/*font-family: 'Open Sans Condensed', sans-serif;
+				font-family: 'Open Sans Condensed', sans-serif;
 				text-align: center;
 				padding: 0.75em;
 				text-decoration: none;
 			}
-*/
+
 #navlist li a:hover, a:active { color: #7fad41; }
 #nav .active a  { color: #7fad41; }
 
@@ -261,5 +261,23 @@ img { border: none; }
 .imagelink img { border: 1px solid black;} 
 .imagelink img:hover { border: 3px solid #7fad41; } 
 
+.w3-row-padding:after { 
+content : ""; 
+display : table; 
+clear : both; 
+} 
+.w3-quarter  { 
+float : right; 
+color: #ffffff;
 
+}  
+.w3-quarter{width:8%}
+
+.w3-row-padding, .w3-quarter { 
+padding : 1px 1px; 
+} 
+a:-webkit-any-link {
+    text-decoration: none;
+    cursor: auto;
+}
 
